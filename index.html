@@ -1,28 +1,371 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/lib/carosule/owl.carousel.min.css">
+
+    <title>Resume :: Atik Bin Hashmee</title>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#home">Atik</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://docs.google.com/document/d/19sxxq0zt1luo39pNeEyeWJy2vrDxPoslv5_RSfRm0cI/edit?usp=sharing" target="_blank">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./tools.html" target="_blank">Tools</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section class="profile-section" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex justify-content-center align-items-center profile-wrapper">
+                        <div class="image-container">
+                            <div class="img-box">
+                                <img src="./assets/img/profile.jpg" />
+                            </div>
+                        </div>
+                        <div class="content-container d-flex flex-column p-4">
+                            <h2>Atik Bin Hashmee</h2>
+                            <h4>Jack of all trades, expert at none</h4>
+                            <h5>Software Engineer, ACM Problem Solver, Music & Anime freak</h5> 
+                            <h5>Writes code in Angular 2, C#, iOS, Android, Java</h5>
+                            <q><h6>HAVING PATIENCE IS THE ONLY KEY TO CLIMB UP A LONG TREE.</h6></q> 
+                            <div class="line-devider"></div>
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <a type="button" class="btn btn-outline-primary"><i class="fa fa-github"></i> Github</a>
+                                <a type="button" class="btn btn-outline-primary"><i class="fa fa-instagram"></i> Instragram</a>
+                                <a type="button" class="btn btn-outline-primary"><i class="fa fa-facebook"></i> Facebook</a>
+                                <a type="button" class="btn btn-outline-primary"><i class="fa fa-linkedin"></i> LinkedIn</a>
+                                <a type="button" class="btn btn-outline-primary">Freelancer</a>
+                                <a type="button" class="btn btn-outline-primary">UpWork</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h1>About Me</h1>
+            <div class="row">
+                <div class="col">
+                    <p class="lead">I am a mobile app developer having expertise in native iOS, Android and Cordova. Though
+                        I started my career with web development (PHP), I am fully focused on iOS app development right now.
+                        Currently I am working on <a href="http://enosisbd.com" target="_blank">Enosis Solutions</a> as a
+                        <strong>Senior Software Engineer</strong> and working on an mobile app being developed in both
+                        native iOS and native android.</p>
+                        <p class="lead">I am very much passionate about problem solving. I have attained in ICPC regional
+                            contest when I was a graduate student. Still when I get some free time, I login to online judges and
+                            investigate any interesting problem to solve. I do participate on different problem solving site e.x
+                            <a href="http://codingame.com">codingame.com</a>, <a href="http://codeforces.com/" target="_blank">codeforces</a>,<a href="http://lightoj.com/l" target="_blank">lightoj</a>,<a href="https://uva.onlinejudge.org/">uva</a>
+                            etc.
+                        </p>
+                        <p class="lead">I have little knowledge on Java and I love that very much although I don't work on it
+                            right now. I have good experience in web app development with Codeigniter, Laravel etc. I have also
+                            worked in lots of project of Joomla and Wordpress.
+                        </p>
+                        <p class="lead">When I get chance, I love to share my knowledge. I use my <a href="http://blog.ujjal.net/" target="_blank">Personal Blog</a> for this purpose.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="services">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6 d-flex justify-content-start align-items-center">
+                    <div style="width: 70%;">
+                        <h1>PHP Developement (2016 - Present)</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Deleniti assumenda eius a natus similique eaque repellat 
+                            harum quasi distinctio recusandae rem quia inventore perferendis, 
+                            veritatis, ullam, maxime fuga sed ad!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end align-items-center">
+                    <div class="project-media-container">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><img src="./assets/img/vig11/Screenshot_1.png" alt=""></div>
+                            <div class="item"><img src="./assets/img/vig11/Screenshot_2.png" alt=""></div>
+                            <div class="item"><img src="./assets/img/vig11/Screenshot_25.png" alt=""></div>
+                        </div>
+                        <div class="my-owl-nav float-end mt-3">
+                            <button class="btn btn-primary my-prev-button">
+                                <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Prev
+                            </button>
+                            <button class="btn btn-primary my-next-button">
+                                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Next
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bg-light p-3 mb-4">
+                <div class="col-md-6 d-flex justify-content-start align-items-center">
+                    <div class="project-media-container">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><img src="./assets/img/vig11/Screenshot_1.png" alt=""></div>
+                            <div class="item"><img src="./assets/img/vig11/Screenshot_2.png" alt=""></div>
+                            <div class="item"><img src="./assets/img/vig11/Screenshot_25.png" alt=""></div>
+                        </div>
+                        <div class="my-owl-nav float-end mt-3">
+                            <button class="btn btn-primary my-prev-button">
+                                <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Prev
+                            </button>
+                            <button class="btn btn-primary my-next-button">
+                                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Next
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end align-items-center">
+                    <div style="width: 70%;">
+                        <h1>React Native Developement (2020 - Present)</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Deleniti assumenda eius a natus similique eaque repellat 
+                            harum quasi distinctio recusandae rem quia inventore perferendis, 
+                            veritatis, ullam, maxime fuga sed ad!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-6 d-flex justify-content-start align-items-center">
+                    <div style="width: 70%;">
+                        <h1>Android Developement (2016 - Present)</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Deleniti assumenda eius a natus similique eaque repellat 
+                            harum quasi distinctio recusandae rem quia inventore perferendis, 
+                            veritatis, ullam, maxime fuga sed ad!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end align-items-center">
+                    <div class="project-media-container">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><img src="./assets/img/vig11/Screenshot_1.png" alt=""></div>
+                            <div class="item"><img src="./assets/img/vig11/Screenshot_2.png" alt=""></div>
+                            <div class="item"><img src="./assets/img/vig11/Screenshot_25.png" alt=""></div>
+                        </div>
+                        <div class="my-owl-nav float-end mt-3">
+                            <button class="btn btn-primary my-prev-button">
+                                <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Prev
+                            </button>
+                            <button class="btn btn-primary my-next-button">
+                                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Next
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bg-light mb-4">
+                <div class="col-md-6 d-flex justify-content-start align-items-center">
+                    <div class="project-media-container">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><img src="./assets/img/vig11/Screenshot_1.png" alt=""></div>
+                            <div class="item"><img src="./assets/img/vig11/Screenshot_2.png" alt=""></div>
+                            <div class="item"><img src="./assets/img/vig11/Screenshot_25.png" alt=""></div>
+                        </div>
+                        <div class="my-owl-nav float-end mt-3">
+                            <button class="btn btn-primary my-prev-button">
+                                <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Prev
+                            </button>
+                            <button class="btn btn-primary my-next-button">
+                                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Next
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end align-items-center">
+                    <div style="width: 70%;">
+                        <h1>ASP.net Developement (2020 - Present)</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Deleniti assumenda eius a natus similique eaque repellat 
+                            harum quasi distinctio recusandae rem quia inventore perferendis, 
+                            veritatis, ullam, maxime fuga sed ad!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- <section class="experience">
+        <div class="container">
+            <h1>Experience</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="date-time"> <i>Aug-2020 - Present</i> </span>
+                    <h4>DoCommerce Ltd</h4>
+                    <small>Sr. Software Engineer</small>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laboriosam quam perferendis rem facilis quae possimus at quisquam reiciendis molestias?
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="date-time"> <i>June 2019 - July 2020</i> </span>
+                    <h4>Mediusware Ltd</h4>
+                    <small>Software Engineer</small>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laboriosam quam perferendis rem facilis quae possimus at quisquam reiciendis molestias?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education">
+        <div class="container">
+        <h1>Education</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Jahangirnagar University</h3>
+                <small>Msc In Computer Science (PMSCS 25th Batch)</small>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laboriosam quam perferendis rem facilis quae possimus at quisquam reiciendis molestias?
+                </p>
+            </div>
+            <div class="col-md-12">
+                <h3>IUBAT - University</h3>
+                <small>Bachalor in Computer Science (Sept 2013 - April 2018)</small>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laboriosam quam perferendis rem facilis quae possimus at quisquam reiciendis molestias?
+                </p>
+            </div>
+        </div>
+        </div>
+    </section> -->
+
+
+    <section class="acknowledgement" id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h1>Acknowledgement</h1>
+                    <p class="lead">Thanks to <a href="https://getbootstrap.com/" target="_blank">https://getbootstrap.com/</a>
+                        for this nice css framework.</p>
+                    <p class="lead">Thanks to <a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">Owl Carousel 2</a> for this Amazing Plugin.</p>
+                    <p class="lead">Thanks to <a href="http://enosisbd.com/" target="_blank">DoCommerce Ltd</a> and <a href="https://mediusware.com/" target="_blank">Mediusware Ltd</a> for giving
+                                me chance to work on some awesome applications.</p>
+                    <p class="lead">Thanks to my Family, each of the Seniors, Juniors, Clients, Forums, Google,
+                                        Stackoverflow, Internet and everything around me for paving my way :) </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="ms-auto w-50">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">Last 10 Visitors</h2>
+                        <ul>
+                            <li>209.17.96.218</li>
+                            <li>209.17.97.98</li>
+                            <li>209.17.97.58</li>
+                            <li>209.17.97.2</li>
+                            <li>209.17.96.210</li>
+                            <li>209.17.96.202</li>
+                            <li>209.17.96.106</li>
+                            <li>209.17.97.26</li>
+                            <li>209.17.96.66</li>
+                            <li>209.17.96.146</li>                
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer pt-5 pb-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <footer class="d-flex justify-content-between">
+                        <div>To Contact Send an <a href="mailto:atikhashmee6235@gmail.com">Email</a> to Me</div>
+                        <div class="copyright"> © Atik 2021 . All rights reserved.</div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/lib/carosule/owl.carousel.min.js"></script>
+    <script>
+        var selector = $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:30,
+            nav:false,
+            dots: false,
+            items: 1,
+            autoplay: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
+        $('.my-next-button').click(function() {
+            selector.trigger('next.owl.carousel');
+        });
+
+        $('.my-prev-button').click(function() {
+            selector.trigger('prev.owl.carousel');
+        });
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
